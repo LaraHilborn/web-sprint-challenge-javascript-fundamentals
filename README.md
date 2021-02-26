@@ -29,13 +29,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach goes through every object in an array letting you make changes, it does not stop and it does not require a return.
+.map does not change the original array, it does require a return, and it creates a new array.
+
 2. Explain the difference between a callback and a higher order function.
+
+A callback is a function that is passed into another function as an arguement. 
+A higher order functions _are_ the functions that recieve other functions as parameters. 
 
 3. What is closure?
 
+Closer is when a function reaches out of it's own scope to get a variable. 
+
 4. Describe the four rules of the 'this' keyword.
 
+    1. If the word "new is used, it means "this" is a brand new object.
+    2. If 'apply', 'call', or 'bind' are used, "this" is the arguement being passed. 
+    3. If a function is called as a method, "this" is the word to th eleft of the dot. 
+    4. If it doesn't have any of the other rules, "this" is a global object.
+
 5. Why do we need super() in an extended class?
+
+We use super because it carries over all the attributes from the parent. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
